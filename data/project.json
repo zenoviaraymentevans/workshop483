@@ -1,6 +1,6 @@
 {
   "publish": {
-    "publish_pages_app": true,
+    "publish_pages_app": false,
     "publish_sha": "",
     "publish_iso_date": ""
   },
@@ -18,10 +18,46 @@
     "auto_populate_home_page": true,
     "additional_users": [],
     "tags": {
-      "tagGroups": [],
-      "tags": []
+      "tagGroups": [
+        {
+          "category": "Performance",
+          "color": "#ADFFD9"
+        },
+        {
+          "category": "Transcription",
+          "color": "#ADFEFF"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Pitch",
+          "category": "Performance"
+        },
+        {
+          "tag": "Tempo",
+          "category": "Performance"
+        },
+        {
+          "tag": "Volume",
+          "category": "Performance"
+        },
+        {
+          "tag": "Amplitude",
+          "category": "Performance"
+        },
+        {
+          "tag": "Title",
+          "category": "Transcription"
+        },
+        {
+          "tag": "Poem",
+          "category": "Transcription"
+        }
+      ]
     },
     "created_at": "2025-02-28T20:19:21.963Z",
-    "updated_at": "2025-02-28T20:24:30.103Z"
-  }
+    "updated_at": "2025-02-28T20:27:58.945Z",
+    "generate_pages_site": false
+  },
+  "is_private": false
 }
